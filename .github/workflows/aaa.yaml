@@ -8,9 +8,3 @@ jobs:
     uses: nasir17git/defefwwef/.github/workflows/call.yaml@main
     with:
       username: nasir
-  call-workflow-2-in-local-repo:
-    uses: ./.github/workflows/called.yaml
-    with:
-      username: mona
-    secrets:
-      SECRET_SEED: seed

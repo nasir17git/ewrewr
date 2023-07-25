@@ -5,6 +5,6 @@ on:
 
 jobs:
   call-workflow-1-in-local-repo:
-    uses: nasir17git/defefwwef/.github/workflows/call.yaml@main
+    uses: nasir17git/defefwwef/.github/workflows/msg.yaml@main
     with:
       username: nasir

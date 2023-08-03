@@ -1,0 +1,15 @@
+name: new Caller Workflow
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  call-workflow-1-in-local-repo:
+    uses: nasir17git/called/.github/workflows/called.yaml@main
+    with:
+      APP_NAME: aaa
+      NEED_MYSQL: false
+      TARGET: false
+      NOT_ALWAYS: 11231233
+      FIRE: YES

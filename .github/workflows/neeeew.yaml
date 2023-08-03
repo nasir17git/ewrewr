@@ -1,0 +1,16 @@
+name: neeeew Caller Workflow
+
+on:
+  workflow_dispatch:
+    inputs:
+      APP_NAME:
+        type: string
+jobs:
+  call-workflow-1-in-local-repo:
+    uses: nasir17git/called/.github/workflows/called.yaml@main
+    with:
+      APP_NAME: ${{ inputs.APP_NAME }}
+      NEED_MYSQL: false
+      TARGET: false
+      NOT_ALWAYS: 11231233
+      FIRE: YES

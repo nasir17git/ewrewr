@@ -1,7 +1,6 @@
 name: neeeew Caller Workflow
 
 on:
-  push:
   workflow_dispatch:
     inputs:
       APP_NAME:

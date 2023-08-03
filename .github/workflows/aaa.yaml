@@ -2,6 +2,7 @@ name: Caller Workflow
 
 on:
   push:
+  workflow_dispatch:
 
 jobs:
   call-workflow-1-in-local-repo:
